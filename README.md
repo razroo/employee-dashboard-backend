@@ -6,10 +6,10 @@ Official backend repo for the Razroo Employee Dashboard. Backend built using Str
 ## Install Docker 
 https://docs.docker.com/get-docker/
 
-## Clone this repo 
-cd to cloned repo and run `npm install` 
-
 ## Run Docker Compose up to get up and running 
+
+Cd to repo and and run docker command: 
+
 ```
 docker-compose up
 ```
