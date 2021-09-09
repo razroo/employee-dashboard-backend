@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tickets",
+  "info": {
+    "name": "tickets"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "employeesName": {
+      "type": "string"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ticketName": {
+      "type": "string"
+    },
+    "ticketLink": {
+      "type": "string"
+    },
+    "reporter": {
+      "type": "string"
+    },
+    "designLink": {
+      "type": "string"
+    }
+  }
+}
