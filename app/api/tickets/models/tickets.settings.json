@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "tickets",
   "info": {
-    "name": "tickets"
+    "name": "tickets",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,22 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "employeesName": {
+    "employeeName": {
       "type": "string"
     },
     "projectName": {
       "type": "string"
     },
-    "description": {
+    "shortDescription": {
       "type": "richtext"
     },
-    "ticketName": {
+    "ticketNumber": {
       "type": "string"
     },
     "ticketLink": {
       "type": "string"
     },
-    "reporter": {
+    "reporterName": {
       "type": "string"
     },
     "designLink": {
