@@ -5,14 +5,16 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "docker compose up",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
+    "install": "^0.13.0",
     "knex": "0.21.18",
     "mysql": "2.18.1",
+    "npm": "^7.24.0",
     "strapi": "3.6.3",
     "strapi-admin": "3.6.3",
     "strapi-connector-bookshelf": "3.6.3",
