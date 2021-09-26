@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
+    "develop": "npm develop",
+    "start": "npm start",
+    "build": "npm build",
     "strapi": "strapi"
   },
   "devDependencies": {},
